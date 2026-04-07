@@ -1,0 +1,91 @@
+* {
+    margin: 20s;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/home/administrador/Imagens/10385387-abstrato-fundo-padrao-preto-branco-cinza-forma-triangular-vetor.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;  
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaApp {
+    background-color: rgb(35, 35, 35);
+    width: 500px; 
+    padding: 50px; 
+    border-radius: 30px;
+    box-shadow:0 0 45px rgba(0, 0, 0, 9);
+}
+
+.texto {
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    background-color: #ffffff1a; 
+    color: rgb(255, 255, 255); 
+    padding: 15px; 
+}
+
+.traducao {
+    padding: 15px;
+    background-color: #444444;
+
+}
+.traducao {
+    font-size: 20px; 
+    color:#898989 ;
+ 
+}
+
+.titulo-traducao {
+    color:#888888 ;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.caixa-interna {
+display: flex;
+align-items: center;
+gap: 10px;
+margin: 20px auto;
+}
+
+.idioma {
+    width: 100%;
+border: none;
+padding: 10px;
+background-color:aliceblue;
+color:brown;
+border-radius: 20px;
+outline: none;
+cursor: pointer;
+}
+   
+button {
+border:none;
+padding: 10px;
+border-radius: 50%;
+background-color: azure;
+cursor: pointer;
+color:brown;
+}
+
+button:hover{
+opacity: 0.9;
+
+}
+
+
+
+
+
+
